@@ -16,7 +16,11 @@ const config: Config = {
         125: '31.25rem'
       },
       colors: {
-        'gio-300': '#00ff00'
+        'gio-300': '#00ff00',
+        'typescript': '#2f74c0',
+        'react': '#6bddfa',
+        'javascript': '#efd81d',
+        'next': '#000000'
       }
     },
   },
