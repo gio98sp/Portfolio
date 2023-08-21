@@ -8,7 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      width: {
+        120: '30rem',
+        125: '31.25rem'
+      },
+      height: {
+        125: '31.25rem'
+      },
+      colors: {
+        'gio-300': '#00ff00'
+      }
     },
   },
   plugins: [],
