@@ -21,6 +21,14 @@ const config: Config = {
         'react': '#6bddfa',
         'javascript': '#efd81d',
         'next': '#000000'
+      },
+      keyframes: {
+        blink: {
+          '50%': {opacity: '0'},
+        }
+      },
+      animation: {
+        'blink': 'blink 1s infinite'
       }
     },
   },

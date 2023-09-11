@@ -6,12 +6,13 @@ export const AboutMe = () => {
     <main className="flex flex-wrap-reverse max-w-screen-xl m-auto justify-center items-center gap-10 md:gap-32 md:py-8 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between">
       <div className="flex flex-col items-center xl:items-start gap-4 w-full xl:w-120">
         <h1 className="text-3xl sm:text-7xl xl:leading-[5rem] ">
-          Prazer, sou&nbsp;<strong className="text-gio-300">Giovane</strong>
+          Prazer, sou<strong className="text-gio-300"><span className='animate-blink'>_</span>Giovane</strong>
         </h1>
         <div className="mb-6">
           <h2 className="mb-6">
-            Sou um desenvolvedor Front-end, aprendendo a como codar melhor todos os dias!
-            Atualmente estou estudando React, Next, Typescript e entre outras tecnologias.
+            Sou um desenvolvedor Front-end, sempre buscando melhorar minhas habilidades de
+            programação todos os dias. Atualmente, estou focado em aprender React, Next.js,
+            TypeScript e outras tecnologias relacionadas.
           </h2>
           <span className="w-fit text-lg rounded-lg text-gio-300">Converse Comigo!</span>
         </div>
@@ -95,11 +96,12 @@ export const AboutMe = () => {
               <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
             </svg>
             <a href="mailto:giovane98sp@gmail.com">giovane98sp@gmail.com</a>
-            <CopyIcon textToCopy='giovane98sp@gmail.com' />
+            <CopyIcon textToCopy="giovane98sp@gmail.com" />
           </li>
         </ul>
-        <div>
-          <ul className='flex flex-wrap gap-3'>
+        <div className='space-y-6'>
+          <p>Tecnologias</p>
+          <ul className="flex flex-wrap gap-3">
             <li className="px-2 py-1 bg-javascript text-black">javascript</li>
             <li className="px-2 py-1 bg-react text-black">react</li>
             <li className="px-2 py-1 border-2 border-white bg-next">next</li>
