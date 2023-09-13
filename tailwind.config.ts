@@ -30,7 +30,7 @@ const config: Config = {
         }
       },
       animation: {
-        'blink': 'blink 1.1s step-end infinite'
+        'blink': 'blink 1.2s step-end infinite'
       }
     },
   },
