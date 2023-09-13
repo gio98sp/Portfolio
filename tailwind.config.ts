@@ -24,11 +24,13 @@ const config: Config = {
       },
       keyframes: {
         blink: {
-          '50%': {opacity: '0'},
+          '50%': {
+            opacity: '0'
+          },
         }
       },
       animation: {
-        'blink': 'blink 1s infinite'
+        'blink': 'blink 1.1s step-end infinite'
       }
     },
   },
