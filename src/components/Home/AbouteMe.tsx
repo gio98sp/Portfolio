@@ -127,7 +127,7 @@ export const AboutMe = () => {
             className="rounded-full border-8 border-gray-800"
           />
           <p className="p-1 md:p-4 w-fit text-base leading-tight bg-gray-800 rounded-xl absolute -bottom-[0.75rem] sm:bottom-3">
-            <strong className="text-2xl md:text-4xl text-gio-300">1+</strong>
+            <strong className="text-2xl md:text-4xl text-gio-300">+1</strong>
             <br />
             ano estudando programação
           </p>
