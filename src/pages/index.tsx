@@ -12,7 +12,7 @@ export default function Home() {
         <title>Sobre mim | Giovane</title>
         <meta name="description" content="Sou um desenvolvedor Front-end apaixonado por tecnologias" />
       </Head>
-      <div className='py-6 lg:py-12 px-6 lg:px-32 space-y-10 lg:space-y-28'>
+      <div className='p-6 xl:py-12 lg:px-32 mb-10 space-y-20 lg:space-y-28'>
         <AboutMe />
       </div>
     </div>

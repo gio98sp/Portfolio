@@ -11,7 +11,7 @@ export const Layout = ({children}: LayoutProps) => {
     <>
       <header className="py-3 px-12">
         <Link href='/'>
-          <Image src='/favicon.ico' width={125} height={34} className="w-auto h-auto" alt="Logo do Giovane, escrito GS" />
+          <Image src='/favicon.ico' width={125} height={34} alt="Logo do Giovane, escrito GS" />
         </Link>
       </header>
       {children}
