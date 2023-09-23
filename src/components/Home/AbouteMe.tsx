@@ -119,12 +119,6 @@ export const AboutMe = () => {
             linkProject="https://top-films-gio98sp.vercel.app/"
           />
           <Project
-            name="ChatGPT-Clone"
-            linkImage="/chatgpt-clone.png"
-            linkRepo="https://github.com/gio98sp/chatgpt-clone"
-            linkProject="https://chatgpt-clone-gio98sp.vercel.app/"
-          />
-          <Project
             name="TabNews Blog"
             linkImage="/tabnews-blog.png"
             linkRepo="https://github.com/gio98sp/tabnews-blog"
@@ -135,6 +129,12 @@ export const AboutMe = () => {
             linkImage="/github-finder.png"
             linkRepo="https://github.com/gio98sp/github_finder_react_typescript"
             linkProject="https://github-finder-react-typescript-gio98sp.vercel.app/"
+          />
+          <Project
+            name="ChatGPT-Clone"
+            linkImage="/chatgpt-clone.png"
+            linkRepo="https://github.com/gio98sp/chatgpt-clone"
+            linkProject="https://chatgpt-clone-gio98sp.vercel.app/"
           />
         </div>
       </article>
