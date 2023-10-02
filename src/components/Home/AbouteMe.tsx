@@ -23,9 +23,9 @@ export const AboutMe = () => {
           </h1>
 
           <h2>
-            Sou um desenvolvedor Front-end, sempre buscando melhorar minhas habilidades de
+            Sou um desenvolvedor web, sempre buscando melhorar minhas habilidades de
             programação todos os dias. Atualmente, estou focado em aprender React, Next.js,
-            TypeScript e outras tecnologias relacionadas.
+            TypeScript, Node.js e outras tecnologias relacionadas.
           </h2>
 
           <span className="w-fit text-lg rounded-lg text-gio-300">Converse Comigo!</span>
@@ -80,14 +80,19 @@ export const AboutMe = () => {
           <div className="space-y-3">
             <p>Tecnologias</p>
 
-            <ul className="flex flex-wrap justify-center items-center gap-3">
+            <ul className="flex flex-wrap justify-center xl:justify-start items-center gap-3">
+              <li className="px-2 py-1 bg-html text-black">html</li>
+              <li className="px-2 py-1 bg-css text-black">css</li>
               <li className="px-2 py-1 bg-javascript text-black">javascript</li>
               <li className="px-2 py-1 bg-react text-black">react</li>
               <li className="px-2 py-1 border border-white bg-next">next</li>
               <li className="px-2 py-1 bg-typescript">typescript</li>
+              <li className="px-2 py-1 bg-node">node</li>
+              <li className="px-2 py-1 bg-sql">sql</li>
             </ul>
           </div>
         </div>
+
 
         <div className="relative h-fit w-80 md:w-96 xl:w-120">
           <Image

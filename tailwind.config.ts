@@ -20,6 +20,10 @@ const config: Config = {
         'typescript': '#2f74c0',
         'react': '#6bddfa',
         'javascript': '#efd81d',
+        'node': '#489D5F',
+        'sql': '#DB7533',
+        'html': '#FF6713',
+        'css': '#00ade5',
         'next': '#000000'
       },
       keyframes: {
